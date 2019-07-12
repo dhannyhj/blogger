@@ -58,7 +58,7 @@ function recent_post_style(){
     document.write(s);
 }
 function recent_post_content(){
-    var s = "<div>";
+    var s = "<div id='recent_post' title='Breaking News'>";
     if(info_text){
     s += "<div>";
     s += "<span class='tulisbreaking'>";
