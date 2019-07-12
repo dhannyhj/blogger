@@ -63,7 +63,6 @@ function recent_post_content(){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
     s += "Breaking News";
-    s += "</div>";
     }
     s += "  <marquee style='float:left; margin-left:10px; width:82%' scrollAmount='"+scrolling_speed+"'>";
     for(var i=0; i<latest_post; i++){
@@ -74,6 +73,7 @@ function recent_post_content(){
         if(i != latest_post-1){s += " | ";}
     }
     s += "</marquee>";
+    s += "</div>";
     s += "</div>";
     if(close_button){
 	s += "<div style='float:right;margin-right:15px;'>";
